@@ -19,9 +19,9 @@ export class LoginComponent implements OnInit {
       this.userId=param["userId"];
     })
   }
-  goToSignUp()
+  goToSignUp(id:number)
   {
     //this.router.navigateByUrl("/auth/signup");
-    this.router.navigate(["/public/book-details", 100]);
+    this.router.navigate(["/public/book-details",id],{ queryParams: {name:'Pavit'}});
   }
 }
