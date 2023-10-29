@@ -29,3 +29,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## To create module with child root and module use follwoing command
 
 ng g m user --routing --module=app
+
+## To create flat component
+
+ng g c user/user --flat
+
+ng g m public/public-routing --flat --module=public
