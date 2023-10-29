@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./public.component.css']
 })
 export class PublicComponent {
-
+  authorId=100;
+  bookId=20;
 }
