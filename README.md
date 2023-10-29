@@ -35,3 +35,4 @@ ng g m user --routing --module=app
 ng g c user/user --flat
 
 ng g m public/public-routing --flat --module=public
+ng g c public/public --flat
