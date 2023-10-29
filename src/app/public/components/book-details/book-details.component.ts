@@ -6,7 +6,7 @@ import { ActivatedRoute } from '@angular/router';
   templateUrl: './book-details.component.html',
   styleUrls: ['./book-details.component.css']
 })
-export class BookDetailsComponent {
+export class BookDetailsComponent   {
 
   // constructor(private route: ActivatedRoute){
 
