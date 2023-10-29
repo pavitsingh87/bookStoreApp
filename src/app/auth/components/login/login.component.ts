@@ -9,12 +9,14 @@ import { ActivatedRoute } from '@angular/router';
 export class LoginComponent implements OnInit {
 
   name:string="";
+  userId:string="";
   constructor(private route: ActivatedRoute){
 
   }
   ngOnInit(){
     this.route.queryParams.subscribe((param)=>{
       this.name=param["name"];
+      this.userId=param["userId"];
     })
   }
 }
