@@ -8,6 +8,7 @@ import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 import { AuthModule } from './auth/auth.module';
 import { UserModule } from './user/user.module';
 import { PublicModule } from './public/public.module';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -17,10 +18,8 @@ import { PublicModule } from './public/public.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    AuthModule,
-    UserModule,
-    PublicModule
+    SharedModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
