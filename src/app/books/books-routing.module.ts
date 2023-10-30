@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PublicComponent } from './public.component';
+import { BooksComponent } from './books.component';
 import { AllBooksComponent } from './components/all-books/all-books.component';
 import { BookDetailsComponent } from './components/book-details/book-details.component';
 
 
 const routes:Routes = [
   {
-    path:'public',  component: PublicComponent ,
+    path:'books',  component: BooksComponent ,
     children:
     [
       { path: 'all-books', component: AllBooksComponent },
@@ -20,4 +20,4 @@ const routes:Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class PublicRoutingModule { }
+export class BooksRoutingModule { }
