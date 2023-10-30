@@ -9,6 +9,8 @@ import { SharedModule } from './shared/shared.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { ReactiveFormsModule } from '@angular/forms';
+import { MaterialModule } from './shared/material.module';
+import { ToolbarComponent } from './shared/components/toolbar/toolbar.component';
 
 
 @NgModule({
@@ -20,6 +22,7 @@ import { ReactiveFormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     SharedModule,
+    MaterialModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     
