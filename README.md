@@ -1,5 +1,10 @@
 # BookStoreApp
 
+
+<img width="549" alt="Screenshot 2023-10-30 at 10 25 27 AM" src="https://github.com/pavitsingh87/bookStoreApp/assets/29797917/3e6d7c9c-9b78-4dc3-9957-da87c879de50">
+
+<img width="1080" alt="Screenshot 2023-10-30 at 10 25 10 AM" src="https://github.com/pavitsingh87/bookStoreApp/assets/29797917/6d261646-1d17-4ce6-a613-b06b336dd265">
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
 
 ## Development server
